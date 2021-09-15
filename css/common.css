@@ -1,0 +1,48 @@
+.common-middle-container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.clearfix::after,
+.clearfix::before{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.light-star{
+    height: 12px;
+    width: 12px;
+    background-image: url('../img/star.png');
+}
+
+.dark-star{
+    height: 12px;
+    width: 12px;
+    background-image: url('../img/star.png');
+    background-position: 0 -13px;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+
+.top-container>h3{
+    font-weight: bold;
+    color: #3a3a3a;
+    float: left;
+}
+
+.top-container .long-line{
+    width: 200px;
+    height: 1px;
+    background-color: #eeecec;
+    float: left;
+    margin-top: 14px;
+    margin-left: 20px;
+}

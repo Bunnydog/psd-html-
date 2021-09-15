@@ -1,0 +1,290 @@
+/* 设置header */
+
+.main-nav{
+    height: 110px;
+
+}
+
+.main-nav .main-logo{
+    height:54px ;
+    width: 180px;
+    background-image: url("../img/logo.png");
+    float: left;
+    margin-top: 40px;
+   
+}
+
+.main-nav .right-nav{
+    float: right;
+}
+
+.main-nav .right-nav .item{
+    float: left;
+    line-height: 110px;
+    margin-left: 50px;
+}
+
+.main-nav .right-nav .item a{
+    font-size: 14px;
+    color: #3a3a3a;
+}
+
+.main-nav .right-nav .item a:hover{
+    text-decoration: underline;
+}
+
+/* 设置main中的banner部分 */
+main .banner{
+    position: relative;
+}
+
+main .banner img{
+    width: 100%;
+    height: 571px;
+}
+
+main .banner .bannerText{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    
+}
+
+.banner .bannerText .banner-logo{
+    height: 117px;
+    width: 776px;
+    background-image: url("../img/bannerLogo.png");
+}
+
+.banner .bannerText .intro{
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.banner .bannerText .line{
+    width: 40px;
+    height: 1px;
+    background-color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.banner .bannerText span{
+    margin: 0 27px;
+}
+
+/* 设置mian中的menu部分 */
+
+main .menu-list{
+    border-top: 4px solid #f24948;
+}
+
+main .menu-list .menu-title{
+    position: relative;
+    line-height: 60px;
+    width: 155px;
+    color: #fff;
+    background-color:#f24948 ;
+    text-align: center;
+    margin:0 auto ;
+    font-size: 20px;
+}
+
+main .menu-list .menu-title::after{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    content: "";
+    border-left: 78px solid transparent;
+    border-right: 78px solid transparent;
+    border-bottom: 10px solid #fff;
+}
+
+main .menu-list .menu-container{
+    margin-top: 80px;
+    color: #545454;
+    
+}
+
+.menu-container ul{
+    display: inline-block;
+}
+
+.menu-container ul li{
+    float: left;
+    margin-bottom: 60px;
+
+}
+
+.menu-container ul:nth-of-type(even){
+    margin-left: 120px;
+}
+
+
+.menu-container ul li p{
+    color: #b6b6b6;
+    font-size: 6px;
+}
+
+.menu-container ul li.Long-line{
+    height: 1px;
+    width: 190px;
+    background-color: #b6b6b6;
+    margin:13px  40px 0 30px;
+
+
+}
+
+.menu-list .more-btn {
+    color: #d6d4d4;
+    display:block;
+    margin: 0 auto;
+    width: 134px;
+    text-align: center;
+    line-height:34px ;
+    border: 1px solid #d6d4d4;
+}
+
+.menu-list .more-btn i{
+    display: inline-block;
+    height: 7px;
+    width: 9px;
+    background-image: url('../img/morebtn.png');
+}
+
+.menu-list .more-btn span{
+    margin: 0 11 px;
+}
+
+
+/* 设置main中的featured dishes部分 */
+main .featured-dishes{
+    margin-top:200px ;
+}
+
+
+
+
+
+.top-container .select-point{
+    float: right;
+}
+
+.top-container .select-point .point{
+    
+    float: left;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.top-container .select-point .point>a{
+    display:block;
+    height:10px;
+    width: 10px;
+    background-color: #dddddd;
+    border-radius: 50%;
+   
+}
+
+.top-container .select-point .point>a:hover{
+    background-color:#afafaf ;
+}
+
+.featured-dishes .box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+    
+}
+
+.featured-dishes .dishes-container{
+    width: 230px;
+    margin-top: 75px;
+    overflow: hidden;
+   
+}
+
+.dishes-container .intro{
+    margin-top:30px ;
+    margin-bottom: 8px;
+    line-height: 28px;
+}
+
+.dishes-container ul>li{
+    float: left;
+}
+
+
+/* 设置main中的gallery部分  */
+
+.gallery .photo-container{
+    margin-top: 125px;
+    margin-bottom: 200px;
+    display: flex;
+
+}
+
+.photo-container .left-box{
+    width: 353px;
+    overflow: hidden;
+}
+
+.photo-container .middle-box a{
+    display: block;
+}
+
+
+
+
+/* 设置footer */
+
+footer{
+    height: 316px;
+    background-color: #3a3a3a;
+    color: #fff;
+    line-height: 26px;
+}
+
+footer ul{
+    padding-top: 144px;
+   
+}
+
+footer ul>li{
+    width: 184px;
+    float: left;
+    
+}
+
+footer ul>li+li{
+    margin-left: 112px;
+}
+
+footer ul>li a{
+    display: block;
+    color: #fff;
+    line-height: 28px;
+}
+
+footer ul>li p , 
+footer ul>li .footerText{
+    color: #999999;
+}
+
+.footer-Logo{
+    height: 54px;
+    width: 180px;
+    margin-top: -15px;
+    background-image: url("../img/footerLogo.png");
+}
+
+footer ul>li:last-of-type{
+    width: 203px;
+}
+
+footer ul>li .footerText::after{
+    content: 'PixeIhint.com';
+    color: #fff;
+}
