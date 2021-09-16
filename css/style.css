@@ -46,13 +46,16 @@ main .banner img{
 main .banner .bannerText{
     position: absolute;
     top: 40%;
-    left: 25%;
+    left: 0;
+    right: 0;
+
     
 }
 
 .banner .bannerText .banner-logo{
     height: 117px;
     width: 776px;
+    margin: 0 auto;
     background-image: url("../img/bannerLogo.png");
 }
 
